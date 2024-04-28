@@ -3,7 +3,7 @@ import type { Config } from 'drizzle-kit';
 
 export default {
   schema: './src/db/schema/users.ts',
-  out: './drizzle',
+  out: './src/db/migration',
   driver: 'mysql2', // 'pg' | 'mysql2' | 'better-sqlite' | 'libsql' | 'turso'
   dbCredentials: {
     host: process.env.DB_HOST!,

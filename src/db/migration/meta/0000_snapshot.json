@@ -1,8 +1,8 @@
 {
   "version": "5",
   "dialect": "mysql",
-  "id": "14a80474-694f-4c66-bccc-090bff7e1444",
-  "prevId": "a3d0e95b-7cdb-49e0-b74c-9ace66affcfd",
+  "id": "464146ef-ee19-4fa1-97f7-7e057021a52e",
+  "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
     "users": {
       "name": "users",
@@ -147,8 +147,6 @@
   "_meta": {
     "schemas": {},
     "tables": {},
-    "columns": {
-      "\"users\".\"registered_at\"": "\"users\".\"created_at\""
-    }
+    "columns": {}
   }
 }
