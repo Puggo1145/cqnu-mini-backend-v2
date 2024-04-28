@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY package.json .
 COPY bun.lockb .
+COPY drizzle.config.ts .
 
 RUN bun install --production
 
